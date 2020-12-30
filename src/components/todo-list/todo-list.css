@@ -1,6 +1,12 @@
 .todo-list{
   width: 40%;
+  height: 300px;
+  background: #fdfbfb;
+  -webkit-box-shadow: 4px 4px 14px 1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 4px 4px 14px 1px rgba(0,0,0,0.45);
+  box-shadow: 4px 4px 14px 1px rgba(0,0,0,0.45);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
   display: inline-block;
   margin: 0 auto;
-  padding: 3px;
 }
