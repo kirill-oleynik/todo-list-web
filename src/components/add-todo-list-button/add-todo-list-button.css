@@ -1,0 +1,7 @@
+.add-todo-list-button {
+  background: linear-gradient(to top, #385aba, #4e7fd5);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
