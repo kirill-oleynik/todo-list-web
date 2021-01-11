@@ -31,14 +31,15 @@ li:last-child {
   padding: 5px;
   color: grey;
 }
-.controls-divider {
+.task-controls-divider {
   margin: 5px;
   color: lightgrey;
 }
-.controls {
+.task-controls {
   cursor: pointer;
   color: grey
 }
-.controls:hover {
-  color: black;
+.task-controls:hover {
+  color: rgb(4,53,91);
+  font-size: 1.3rem;
 }
