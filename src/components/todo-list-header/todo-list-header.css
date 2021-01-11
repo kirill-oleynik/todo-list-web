@@ -1,4 +1,16 @@
 .todo-list-header {
   background: linear-gradient(to top, #385aba, #4e7fd5);
-  height: 35px;
+  color: white;
+}
+  .todo-list-controls {
+    cursor: pointer;
+
+  }
+  .todo-list-controls:hover {
+  color: rgb(4,53,91);
+  font-size: 1.5rem;
+  }
+.cal-icon {
+  color: rgb(4,53,91);
+  font-size: 1.5rem;
 }
