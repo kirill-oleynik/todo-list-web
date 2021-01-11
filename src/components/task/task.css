@@ -1,0 +1,50 @@
+li {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid lightgrey;
+  border-top: none;
+}
+li:hover {
+  background: rgb(350,254,211);
+}
+li:last-child {
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.col-xs-12 {
+  white-space: nowrap !important;
+  max-width: 100%;
+  overflow: auto;
+}
+.col-xs-3 {
+  float: none !important;
+  display: inline-block !important;
+}
+.is-done-checkbox {
+  cursor: pointer;
+}
+.task-title {
+  border-left: 4px double pink;
+  border-right: 1px solid lightgrey;
+  padding-left: 20px;
+  padding: 5px;
+  color: grey;
+}
+.controls-divider {
+  margin: 5px;
+  color: lightgrey;
+}
+.task-control {
+  color: grey;
+  cursor: pointer;
+}
+.sort-up:hover {
+  color: black;
+}
+.sort-down:hover {
+  color: black;
+}
+.edit-task:hover {
+  color: black;
+}
