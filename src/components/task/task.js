@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import './task.css';
-import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
-import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { faSortUp } from "@fortawesome/free-solid-svg-icons";
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {BsTrash} from 'react-icons/bs';
+import {TiPencil} from 'react-icons/ti';
+import {HiArrowNarrowDown} from 'react-icons/hi';
+import {HiArrowNarrowUp} from 'react-icons/hi';
+import {ImAttachment} from 'react-icons/im';
 
   export default class Task extends Component {
     render(){
@@ -21,12 +24,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   </div>
   <div className="task-title col-xs-3">{title}</div>
   <div className="col-xs-3 contols">
-        <FontAwesomeIcon className='task-control sort-up' icon={faSortUp} />
-        <FontAwesomeIcon className='task-control sort-down' icon={faSortDown} />
+        <ImAttachment className='controls add-attachment' />
         <span className='controls-divider'>|</span>
-        <FontAwesomeIcon className='task-control edit-task' icon={faPencilAlt} />
+        <HiArrowNarrowUp className='controls arrow-up' />
+        <HiArrowNarrowDown className='controls arrow-down' />
         <span className='controls-divider'>|</span>
-        <FontAwesomeIcon classname='task-control delete-task' icon={faTrashAlt} />
+        <TiPencil className='controls edit' />
+        <span className='controls-divider'>|</span>
+        <BsTrash className='controls delete' />
   </div>
 </div>
   </li>

@@ -35,16 +35,10 @@ li:last-child {
   margin: 5px;
   color: lightgrey;
 }
-.task-control {
-  color: grey;
+.controls {
   cursor: pointer;
+  color: grey
 }
-.sort-up:hover {
-  color: black;
-}
-.sort-down:hover {
-  color: black;
-}
-.edit-task:hover {
+.controls:hover {
   color: black;
 }
