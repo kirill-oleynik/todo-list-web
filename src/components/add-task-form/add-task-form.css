@@ -28,3 +28,10 @@
   padding-top: 5px;
   color: rgb(35,147,113);
 }
+.add-task-button {
+  color: white;
+  font-size: .5rem;
+}
+.add-task-button:hover {
+  color: white;
+}
